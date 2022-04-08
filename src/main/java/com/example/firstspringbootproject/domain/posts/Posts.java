@@ -1,4 +1,4 @@
-package com.example.firstspringbootproject.domain;
+package com.example.firstspringbootproject.domain.posts;
 
 
 import lombok.Builder;
