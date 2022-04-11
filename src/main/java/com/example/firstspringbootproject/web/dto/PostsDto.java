@@ -1,12 +1,14 @@
 package com.example.firstspringbootproject.web.dto;
 
 import com.example.firstspringbootproject.domain.posts.Posts;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Getter
 @NoArgsConstructor
+
 public class PostsDto {
     private String title;
     private String content;
@@ -25,4 +27,6 @@ public class PostsDto {
                 .author(author)
                 .build();
     }
+
+
 }
